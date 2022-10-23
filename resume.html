@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/blog-2.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Andres Abadia</h1>
+
+          <p class="title">Junior Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:adabadiaa@correo.usbcali.edu.co" class="contact-link">adabadiaa@correo.usbcali.edu.co</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+573122955268" class="contact-link">+57 (312) 295-5268</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">                <img src="./assets/images/wt.png" width="80%" alt="">
+
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telegram and Whatsapp</p>
+              
+              <a href="tel:+18016341333" class="contact-link">+1 (801) 634-1333</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 25, 2001 </time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cali, Colombia </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <ul class="social-list">
+
+            <a style="color:beige;" href="https://github.com/andreseagle1927">Git Hub</a>
+            <a style="color:beige;" href="https://www.linkedin.com/in/andres-alferes-a85a9624a/">Linkedin</a>
+  
+  
+          </ul>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <a class="navbar-item" href="./index.html">
+            <button class="navbar-link " data-nav-link>About</button>
+          </a>
+
+          <a class="navbar-item" href="./resume.html">
+            <button class="navbar-link active" data-nav-link>Resume</button>
+          </a>
+
+    
+          <a class="navbar-item" href="./projects.html">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </a>
+
+         
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume active" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="about-text">
+          <p> 2 years studying Software Systems Engineering at <a style="color:rgb(192, 159, 9);" href="https://www.usbcali.edu.co/"> Universidad San Buenaventura </a> </p>
+      </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            
+
+            <h3 class="h3">Education</h3>
+            
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Programming Fundamentals </h4>
+
+              <span>2021, 5 Months</span>
+
+              <p class="timeline-text">
+                where I learned to program in Java and Python
+              </p>
+
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Object-oriented programming</h4>
+
+              <span>2021, 5 Months</span>
+
+              <p class="timeline-text">
+                I learned about the paradigm, how to work with it, and how to use it to solve real-life problems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Structures and Algorithms</h4>
+
+              <span>2022, 5 Months</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software analysis and design</h4>
+
+              <span>2022, 5 Months</span>
+
+              <p class="timeline-text">
+                understand and perform software application designs
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Base 1</h4>
+
+              <span>2022, 4 Months</span>
+
+              <p class="timeline-text">
+                Database design, SGDB, custom queries
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Advanced programming techniques</h4>
+
+              <span>2022, 4 Months</span>
+
+              <p class="timeline-text">
+                Development of a backend project with agile methodologies
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        
+
+        
+
+      </article>
+
+
+
+
+
+
+
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

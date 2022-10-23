@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/blog-2.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Andres Abadia</h1>
+
+          <p class="title">Junior Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:adabadiaa@correo.usbcali.edu.co" class="contact-link">adabadiaa@correo.usbcali.edu.co</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+573122955268" class="contact-link">+57 (312) 295-5268</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+                <img src="./assets/images/wt.png" width="80%" alt="">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telegram and Whatsapp</p>
+
+              <a href="tel:+18016341333" class="contact-link">+1 (801) 634-1333</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 25, 2001 </time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cali, Colombia </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <a style="color:beige;" href="https://github.com/andreseagle1927">Git Hub</a>
+              <a style="color:beige;" href="https://www.linkedin.com/in/andres-alferes-a85a9624a/">Linkedin</a>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <a class="navbar-item" href="./index.html">
+            <button class="navbar-link " data-nav-link>About</button>
+          </a>
+
+          <a class="navbar-item" href="./resume.html">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </a>
+
+    
+          <a class="navbar-item" href="./projects.html">
+            <button class="navbar-link active" data-nav-link>Projects</button>
+          </a>
+
+        
+
+        </ul>
+
+      </nav>
+
+
+
+      <article class="projects active" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="./WebScraping.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Untitled (6).png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Python</p>
+
+                    <span class="dot"></span>
+
+                    <p class="blog-category">2 days</p>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Get last news from CNN and NBC using Web Scraping with Python</h3>
+
+                  <p class="blog-text">
+                    Using the BeautifulSoup python library, we can fetch the latest news from the CBN and CNN news platforms
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./botDiscord.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Untitled(2) (1).png"  alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Python</p>
+
+                    <span class="dot"></span>
+
+                    <p class="blog-category">3 days</p>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Discord bot with data from WebScrapping</h3>
+
+                  <p class="blog-text">
+                    bot made in python and repl.it that delivers the latest news from CNN or NBC through commands
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./fallBall.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/falling.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Unity - C#</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">1 Month </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Fall ball App, Mobile Game with Unity using Google Ads</h3>
+
+                  
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./triangleRun.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/redapp.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Unity - C#</p>
+
+                    <span class="dot"></span>
+                    <p class="blog-category"> 4 Months</p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"> Triangle Run, Mobile Game made with Unity using Google ads </h3>
+
+                  <p class="blog-text">
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
